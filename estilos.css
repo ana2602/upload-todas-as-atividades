@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(0, 0, 0); 
+    border-style:double;
+    border-color: deeppink;
+    border-width:medium;
+    font-family:initial;
+    color: aliceblue;
+}
+
+h1{
+    color:rgb(60, 0, 255);
+    font-size:xx-large;
+    font-family:monospace;
+} 
+
+h3{
+    color:deeppink;
+    font-size:larger;
+    font-family: cursive;
+}
+
+p{
+    color: rgb(196, 196, 196);
+    font-size: larger;
+    font-family: monospace;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    align-items: center;
+    padding: 13px;
+}
+
+a{
+    color: white;
+    text-decoration: none ;
+}
+
+img{
+    width: 197px;
+    height: 197px;
+    border-radius: 50%;
+    border: 5px solid deeppink;
+}
+
+.center{
+    text-align: center;
+}
+
+.container{
+    padding: 0px 50px;
+}
+
+nav a:hover{
+    color:deeppink
+}
